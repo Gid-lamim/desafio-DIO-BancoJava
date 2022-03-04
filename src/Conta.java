@@ -1,8 +1,6 @@
-package pack1;
-
 public class Conta {
-	//esta classe pode ser chamada de supreclass.
-	//o uso de heran�a evita a repeti��o de c�digo.
+	//esta classe é chamada de superclass.
+	//o uso de herança evita a repetição de código.
 
 	private static int sequencial = 1;
 	
@@ -52,7 +50,7 @@ public class Conta {
 	}
 	
 	protected void contaInfo() {
-		System.out.println(String.format("Ag�ncia %d", agencia));
+		System.out.println(String.format("Agência %d", agencia));
 		System.out.println(String.format("Numero %d", numero));
 		System.out.println(String.format("Saldo %.2f", saldo));
 	}
