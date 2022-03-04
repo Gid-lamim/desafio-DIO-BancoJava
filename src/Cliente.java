@@ -1,5 +1,3 @@
-package pack1;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +6,7 @@ public class Cliente {
 	private static int sequencial = 1;
 	
 	private String nome;
-	private int id;//tamb�m achei interessante que cada cliente tivesse um n�mero (id).
+	private int id;//também achei interessante que cada cliente tivesse um número (id).
 	private Conta contaCorrente; 
 	private Conta contaPoupanca;
 	
@@ -27,7 +25,7 @@ public class Cliente {
 	}
 
 	public void imprimeExtrato() {
-		System.out.println(" *** Informa��es do cliente e saldo em conta ***");
+		System.out.println(" *** Informações do cliente e saldo em conta ***");
 		System.out.println("Nome: " + nome);
 		System.out.println("Id: " + id);
 		System.out.println(" *******************************************");
