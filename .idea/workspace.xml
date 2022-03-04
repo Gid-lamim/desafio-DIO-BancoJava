@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04c3d457-c7c9-4e3a-8d61-13d57ae0e344" name="Changes" comment="Final">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pack1/Agencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pack1/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pack1/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pack1/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pack1/ContaPoupanca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pack1/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio-dio-OOP-Banco.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/Agencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/Agencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/ContaCorrente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/ContaPoupanca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/ContaPoupanca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack1/main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="25tqJGBhfzf7LohJAsOeidzi1vJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04c3d457-c7c9-4e3a-8d61-13d57ae0e344" name="Changes" comment="" />
+      <created>1646356658447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646356658447</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Final">
+      <created>1646356969794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646356969794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+  </component>
+</project>
