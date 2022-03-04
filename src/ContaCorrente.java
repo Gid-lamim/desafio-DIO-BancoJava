@@ -1,5 +1,3 @@
-package pack1;
-
 public class ContaCorrente extends Conta {
 
 		@Override
