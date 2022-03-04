@@ -2,8 +2,8 @@ package pack1;
 
 public class Conta {
 	//esta classe pode ser chamada de supreclass.
-	//o uso de herança evita a repetição de código.
-	
+	//o uso de heranï¿½a evita a repetiï¿½ï¿½o de cï¿½digo.
+
 	private static int sequencial = 1;
 	
 	private int agencia;	
@@ -52,7 +52,7 @@ public class Conta {
 	}
 	
 	protected void contaInfo() {
-		System.out.println(String.format("Agência %d", agencia));
+		System.out.println(String.format("Agï¿½ncia %d", agencia));
 		System.out.println(String.format("Numero %d", numero));
 		System.out.println(String.format("Saldo %.2f", saldo));
 	}

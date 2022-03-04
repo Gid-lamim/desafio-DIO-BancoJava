@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cliente {
-	
+
 	private static int sequencial = 1;
 	
 	private String nome;
-	private int id;//também achei interessante que cada cliente tivesse um número (id).
+	private int id;//tambï¿½m achei interessante que cada cliente tivesse um nï¿½mero (id).
 	private Conta contaCorrente; 
 	private Conta contaPoupanca;
 	
@@ -27,7 +27,7 @@ public class Cliente {
 	}
 
 	public void imprimeExtrato() {
-		System.out.println(" *** Informações do cliente e saldo em conta ***");
+		System.out.println(" *** Informaï¿½ï¿½es do cliente e saldo em conta ***");
 		System.out.println("Nome: " + nome);
 		System.out.println("Id: " + id);
 		System.out.println(" *******************************************");

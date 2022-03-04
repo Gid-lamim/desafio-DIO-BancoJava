@@ -9,18 +9,18 @@ import java.util.Scanner;
  
 public class main {
     public static void main(String[] args) throws IOException {
-    	
+
     	
     	/*
-    	 * ao invés de termos uma classe banco, achei mais interessante ter uma classe agência com um hashmap contendo os clientes com uma chave para cada cliente.
+    	 * ao invï¿½s de termos uma classe banco, achei mais interessante ter uma classe agï¿½ncia com um hashmap contendo os clientes com uma chave para cada cliente.
     	 *
-    	 * as operações de depósito, transferência e saque serão feitas dentro do objeto agência.
+    	 * as operaï¿½ï¿½es de depï¿½sito, transferï¿½ncia e saque serï¿½o feitas dentro do objeto agï¿½ncia.
     	 * 
     	 */
     	
     	
-    	Agencia agencia1 = new Agencia(); // cria uma instância da classe agência. 
-    	Agencia agencia2 = new Agencia(); // cria uma instância da classe agência. 
+    	Agencia agencia1 = new Agencia(); // cria uma instï¿½ncia da classe agï¿½ncia. 
+    	Agencia agencia2 = new Agencia(); // cria uma instï¿½ncia da classe agï¿½ncia. 
     	
     	
     	//criando os clientes    	
@@ -44,17 +44,17 @@ public class main {
     	
     	
     	
-    	//transferências
-    	agencia1.transferir(agencia1, 4, agencia1, 2, 4000);    //para transferência entre contas correntes,  inserimos o id do cliente de saida e o id do cliente que irá receber e o valor;
+    	//transferï¿½ncias
+    	agencia1.transferir(agencia1, 4, agencia1, 2, 4000);    //para transferï¿½ncia entre contas correntes,  inserimos o id do cliente de saida e o id do cliente que irï¿½ receber e o valor;
     	agencia1.transferir(agencia1, 4, agencia2, 5, 4000);    
     	
-    	agencia1.transferirPoupanca(1, 110000); //para transferência para conta poupança, apenas inserimos o id do cliente e o valor    	
+    	agencia1.transferirPoupanca(1, 110000); //para transferï¿½ncia para conta poupanï¿½a, apenas inserimos o id do cliente e o valor    	
     	agencia1.transferirPoupanca(2, 14000); 	
     	
     	
     	
     	
-    	//informações de agência
+    	//informaï¿½ï¿½es de agï¿½ncia
     	agencia1.agenciaInfo(); 
     	agencia1.getClients();
     	

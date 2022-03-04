@@ -6,14 +6,14 @@ import java.util.List;
 import java.util.Map;
 
 public class Agencia {
-	
+
 	private static int sequencial = 1;
 	
-	private int numero; // numero da agência
+	private int numero; // numero da agï¿½ncia
 	private HashMap<Integer, Cliente> clientes;
 	
 	/*Escolhi ter uma lista de clientes.
-	 * Cada cliente poderá ter mais de uma conta no banco.
+	 * Cada cliente poderï¿½ ter mais de uma conta no banco.
 	 *  Imaginei q faria mais sentido acessar a conta dessa forma. 
 	 */
 	
@@ -24,42 +24,42 @@ public class Agencia {
 	}
 	
 	public void addClient(Cliente cliente) {
-		//cada cliente será adicionado atravé de um método na classe banco
+		//cada cliente serï¿½ adicionado atravï¿½ de um mï¿½todo na classe banco
 		clientes.put(cliente.getId(), cliente);	
 		System.out.println("Cliente " + cliente.getNome() + "adicionado com sucesso...");
 	}
 		
-	public void depositar(int id, double valor) { //o deposito será feito na conta corrente do cliente pelo id
+	public void depositar(int id, double valor) { //o deposito serï¿½ feito na conta corrente do cliente pelo id
 		if(clientes.containsKey(id)) {
 			clientes.get(id).depositar(valor);
 			System.out.println("deposito de " + valor + " na conta " + id + " realizado com sucesso");
 		} else {
-			System.out.println("não foi possível realizar a operação");
+			System.out.println("nï¿½o foi possï¿½vel realizar a operaï¿½ï¿½o");
 		}
 	}
 	
-	public void sacar(int id, double valor) { //o saque será feito da conta corrente do cliente pelo id
+	public void sacar(int id, double valor) { //o saque serï¿½ feito da conta corrente do cliente pelo id
 		if(clientes.containsKey(id)) {
 			clientes.get(id).sacar(valor);
 			System.out.println("saque de " + valor + " na conta " + id + " realizado com sucesso");
 		}else {
-			System.out.println("não foi possível realizar a operação");
+			System.out.println("nï¿½o foi possï¿½vel realizar a operaï¿½ï¿½o");
 		}
 	}
 	
-	public void transferir(Agencia agenciaSaida, int idSaida, Agencia agenciaDestino, int idDestino, double valor) { //transferências entre contas correntes
+	public void transferir(Agencia agenciaSaida, int idSaida, Agencia agenciaDestino, int idDestino, double valor) { //transferï¿½ncias entre contas correntes
 			agenciaSaida.sacar(idSaida, valor);
 			agenciaDestino.depositar(idDestino, valor);
 			
 	}
 
-	public void transferirPoupanca(int id, double valor) { //transferências entre contas corrente e poupança
+	public void transferirPoupanca(int id, double valor) { //transferï¿½ncias entre contas corrente e poupanï¿½a
 		if(clientes.containsKey(id)) {
 			clientes.get(id).sacar(valor);
 			clientes.get(id).depositarPoupanca(valor);
-			System.out.println("transferência do " + valor + " para a conta popança do id " + id + " realizada com sucesso");
+			System.out.println("transferï¿½ncia do " + valor + " para a conta popanï¿½a do id " + id + " realizada com sucesso");
 		} else {
-			System.out.println("não foi possível realizar a operação");
+			System.out.println("nï¿½o foi possï¿½vel realizar a operaï¿½ï¿½o");
 		}
 	}
 	
@@ -67,11 +67,11 @@ public class Agencia {
 		if(clientes.containsKey(id)) clientes.get(id).imprimeExtrato();
 	}
 	
-	public int getTotalClientes() {//retorna o número de clientes da agência
+	public int getTotalClientes() {//retorna o nï¿½mero de clientes da agï¿½ncia
 		return this.clientes.size();
 	}
 	
-	private double getTotalDepositos() {//retorna o total de dinheiro na agência
+	private double getTotalDepositos() {//retorna o total de dinheiro na agï¿½ncia
 		double total = 0;
 		for (Map.Entry<Integer, Cliente> cliente : clientes.entrySet()) {
 			total += cliente.getValue().valorTotal();
@@ -94,7 +94,7 @@ public class Agencia {
 	
 	public void getClients() {
 		System.out.println("\n");
-		System.out.println("+Clientes agência " + numero + "----------------------+");
+		System.out.println("+Clientes agï¿½ncia " + numero + "----------------------+");
 		for (Map.Entry<Integer, Cliente>  cliente : clientes.entrySet()) {
 			System.out.println("|--> " + cliente.getValue().getNome() + "  (id: " + cliente.getValue().getId() + ") ");
 		}
